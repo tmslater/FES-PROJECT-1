@@ -93,11 +93,13 @@ li {
         align-items: center;
         justify-content: center;
      }
+     /*ABOUT.*/
 
      #about {
         padding: 48px 0;
         text-align: center;  
         margin-bottom: 24px;    
+        background-color: #f8ffdc;
      }
 
      .section__description {
@@ -108,3 +110,32 @@ li {
 
 
      }
+
+     .about__img--wrapper {
+        width: 100%;
+        padding: 0 24px; 
+
+        
+     }
+
+     .section__description--wrapper {
+        width: 60%;
+        padding: 0 24px;
+     }
+
+     
+        .section__description--para {
+        font-size: 20px; 
+        line-height: 1.5;
+        margin-bottom: 24px;
+        
+     }
+
+     /* DISCORD SECTION */
+
+     #discord{
+        background-color: #cefeff;
+     }
+
+     { figure
+    margin:0}
