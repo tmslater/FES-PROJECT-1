@@ -38,9 +38,9 @@
 
     <main>
       <section id="about">
-        <div class="row">
         <div class="section__description">
             <h2>About</h2>
+            <div class="row">
             <div class="section__description--wrapper">
             <p class="section__description--para">
               A paragraph is a series of sentences that are organized and
@@ -56,18 +56,17 @@
             <img src="./assets/html-assets/about.jpg" alt="A about image" />
           </figure>
         </div>
-        </div>
-        </div>
+      </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <div class="section__description"></div>
+        <div class="section__description">
         <figure>
           <img src="./assets/html-assets/discord.png" alt="" />
         </figure>
         <div>
-          <p class="section__description--para">Hello this is my discord @TMSlater</p>
+          <p class="section__description--para">Hello this is my discord @TMSlater Discord is a platform for voice, video, and text chat with friends, gamers, and communities. You can customize your profile, stream games, watch videos, play built-in games, and switch devices easily.</p>
           <p class="section__description--para">I hope you like it!</p>
         </div>
         </div>
@@ -77,18 +76,20 @@
         <h2>Contact</h2>
         <form action="">
           <span>Email</span>
-          <input type="text" placeholder="Jane@example.com" />
+          <input type="email" placeholder="Jane@example.com" />
           <span>Message</span>
+          <input type="text" placeholder="Lets get connected!" />
+          <button>Contact us</button>
         </form>
       </section>
     </main>
     <footer>
-      <img src="./assets/html-assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">about</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="#courses">Courses</a>
+      <img class="footer__logo" src="./assets/html-assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="#courses">Courses</a>
       </div>
       <p>Copyright Frontend simplified</p>
     </footer>
