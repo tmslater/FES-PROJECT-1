@@ -119,9 +119,10 @@ li {
      }
 
      .about__img--wrapper {
-        width: 100%;
+        width: 40%;
         height: auto;
         display: block;
+        padding: 0 24px;
         
 
         
@@ -129,7 +130,7 @@ li {
 
      .section__description--wrapper .about__img--wrapper
       {
-        
+        width: 60%;
         padding: 0 24px;
      }
 
